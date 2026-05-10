@@ -1,0 +1,8 @@
+crewai
+langchain-openai
+python-dotenv
+pandas
+openpyxl
+pydantic
+streamlit
+plotly
