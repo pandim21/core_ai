@@ -1,5 +1,6 @@
 # ── Core AI Engine ──────────────────────────────────────────────────────────
-crewai==1.10.1
+crewai>=1.14.4
+litellm>=1.40.0       # <-- ADD THIS LINE
 langchain-openai>=0.3.0
 openai>=1.20.0
 pydantic>=2.7.0,<3.0.0
