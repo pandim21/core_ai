@@ -1,5 +1,4 @@
 # ── Force-Fix the Rich 15 conflict ──────────────────────────────────────────
-# Satisfies: Streamlit (<14), Instructor (<15), and Textual (>=13)
 rich>=13.7.0,<14.0.0
 textual==0.46.0
 
@@ -14,5 +13,5 @@ streamlit==1.35.0
 plotly>=5.20.0
 pandas>=2.2.0
 python-dotenv>=1.0.1
-openpyxl==3.1.2
+openpyxl>=3.1.5       # <-- THIS IS THE CRITICAL FIX
 Pillow>=10.2.0
