@@ -1,3 +1,14 @@
+---
+title: C.O.R.E. AI
+emoji: ⛏️
+colorFrom: red
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.40.0
+python_version: "3.11"
+app_file: app_premium.py
+pinned: false
+---
 # C.O.R.E. AI
 
 **Collaborative Operational Risk Evaluator** — a four-agent AI system that produces an institutional-grade ESG due-diligence report for a mining prospect in minutes instead of weeks.
