@@ -1,16 +1,18 @@
-# Fixed UI/Agent Compatibility
-streamlit==1.35.0
-rich==13.9.4
-textual==0.47.1
+# ── Force-Fix the Rich 15 conflict ──────────────────────────────────────────
+# Satisfies: Streamlit (<14), Instructor (<15), and Textual (>=13)
+rich>=13.7.0,<14.0.0
+textual==0.46.0
 
-# Core AI Stack
+# ── Core AI Engine ──────────────────────────────────────────────────────────
 crewai==1.10.1
 langchain-openai>=0.3.0
 openai>=1.20.0
+pydantic>=2.7.0,<3.0.0
 
-# Data Utilities
-python-dotenv>=1.0.1
-pandas>=2.2.0
-openpyxl>=3.1.2
+# ── Data & UI ───────────────────────────────────────────────────────────────
+streamlit==1.35.0
 plotly>=5.20.0
+pandas>=2.2.0
+python-dotenv>=1.0.1
+openpyxl==3.1.2
 Pillow>=10.2.0
