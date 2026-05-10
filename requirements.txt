@@ -1,9 +1,16 @@
-crewai>=1.14.4
+# Fixed UI/Agent Compatibility
+streamlit==1.35.0
+rich==13.9.4
+textual==0.47.1
+
+# Core AI Stack
+crewai==1.10.1
 langchain-openai>=0.3.0
-python-dotenv
-pandas
-openpyxl
-pydantic
-streamlit>=1.40.0
-plotly
-pydantic>=2.7.0,<3.0.0
+openai>=1.20.0
+
+# Data Utilities
+python-dotenv>=1.0.1
+pandas>=2.2.0
+openpyxl>=3.1.2
+plotly>=5.20.0
+Pillow>=10.2.0
