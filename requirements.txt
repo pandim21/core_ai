@@ -1,8 +1,9 @@
-crewai
-langchain-openai
+crewai>=1.14.4
+langchain-openai>=0.3.0
 python-dotenv
 pandas
 openpyxl
 pydantic
-streamlit
+streamlit>=1.40.0
 plotly
+pydantic>=2.7.0,<3.0.0
